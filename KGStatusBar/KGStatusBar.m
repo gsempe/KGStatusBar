@@ -138,7 +138,7 @@
         stringLabel.textAlignment = NSTextAlignmentCenter;
 #endif
 		stringLabel.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		stringLabel.font = [UIFont boldSystemFontOfSize:14.0];
+		stringLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:13.0];
 		stringLabel.shadowColor = [UIColor blackColor];
 		stringLabel.shadowOffset = CGSizeMake(0, -1);
         stringLabel.numberOfLines = 0;
